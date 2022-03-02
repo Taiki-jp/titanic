@@ -1,0 +1,4 @@
+inputs/
+outputs/
+*.zip
+__pycache__/
