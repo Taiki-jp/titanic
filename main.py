@@ -1,9 +1,10 @@
-import numpy as np
-import pandas as pd
-import os
-import sys
+# import numpy as np
+# import pandas as pd
+# import os
+# import sys
 from modules.datasets import Dataset
 from modules.graph_utils import GraphUtils
+
 
 def main(train: Dataset, test: Dataset,
          gu: GraphUtils):
@@ -16,6 +17,7 @@ def main(train: Dataset, test: Dataset,
     train.preprocessing(case="titanic")
     test.preprocessing(case="titanic")
     return
+
 
 if __name__ == "__main__":
     # 入力ファイルパスの指定
